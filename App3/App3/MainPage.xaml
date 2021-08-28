@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout>
+
+        <Label Text="StudentID: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding StudentID}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="Name: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding Name}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="CourseCode: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding CourseCode}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="CourseTitle: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding CourseTitle}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="NoUnits: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding NoUnits}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="DateofAttendance: " HorizontalOptions="FillAndExpand" 
+                   TextColor="Black" FontSize="Medium" />
+        <Editor Text="{Binding DateofAttendance}" HorizontalOptions="CenterAndExpand" 
+                   TextColor="Black" />
+        <Label Text="{Binding UserInfo}" HorizontalOptions="StartAndExpand" 
+                   TextColor="Black" FontSize="Large" />
+
+    </StackLayout>
+
+</ContentPage>
